@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: circuit-breaker-microservice
+
+server:
+  port: 8766

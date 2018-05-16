@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+    
+---
+spring:
+  profiles: dev
+  
+  
+  
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8765/eureka/     
